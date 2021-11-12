@@ -5,7 +5,7 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-body{
+body {
   font-family: var(--default-font-family);
 }
 
@@ -17,10 +17,24 @@ h5,
 h6 {
   font-family: var(--header-font-family);
   text-align: center;
-  color:black;
-  font-size: 96px;
-  line-height: 127px;
+  color: black;
   font-weight: 700;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+  line-height: 85px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -38,10 +52,9 @@ h6 {
 .hero h2 {
   font-family: var(--default-font-family);
   font-size: 24px;
-  line-height: 2;
+  line-height: 1.5;
   font-weight: 400;
   color: #272142;
-;
   text-align: center;
 }
 
@@ -53,4 +66,37 @@ h6 {
   border-radius: 4px;
   padding: 18px 30px;
   color: white;
+}
+
+.btn-branding-outline {
+  font-size: 18px;
+  line-height: 27px;
+  padding: 18px 30px;
+  border-radius: 4px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
+.project-description {
+  padding: 120 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+  padding: 80px 20px;
+   }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
