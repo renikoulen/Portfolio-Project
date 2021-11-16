@@ -1,11 +1,14 @@
 /*--d7f2f0
-  --secondary-color: #f9f7fe;
-    --branding-color: #6c63ff;
+  --secondary-color: #E3E3E3; Grey 90
+    --branding-color: #a1142e; weinrot
+
+  --branding-color: #6c63ff; as per SheCodes
+  --secondary-color: #d7f2f0; as per SheCodes
 */
 
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #d7f2f0;
+  --branding-color: #a1142e;
+  --secondary-color: #E3E3E3;
   --header-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
