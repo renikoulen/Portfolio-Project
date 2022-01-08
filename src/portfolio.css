@@ -203,6 +203,17 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+.impressum {
+  font-size: 18px;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -212,7 +223,6 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
-
 
   .content {
     text-align: center;
